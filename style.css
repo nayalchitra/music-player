@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+*{
+    background-color: #b3e6cb;
+}
+
+.song-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px grey;
+}
+.audio-controls{
+    display: flex;
+}
+.music-player{
+    display: flex;
+    flex-direction: column;
+}
+
+.next-songs{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.next-songs::after{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+  
+    border-style: solid;
+    border-width: 15px 0 15px 26px;
+    border-color: transparent transparent transparent black;
+}
+.next-songs:hover::after{
+    border-color: transparent transparent transparent wheat;
+}
+
+.next-songs:focus{
+    box-shadow: 0 0 0 3px #b3e6cb;
+}
+
+.previous-songs{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.previous-songs::after{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-style: solid;
+    border-width: 15px 26px 15px 0px;
+    border-color: transparent black transparent transparent;
+}
+.previous-songs:hover::after{
+    border-color: transparent wheat transparent transparent;
+}
+
+.previous-songs:focus{
+    box-shadow: 0 0 0 3px #b3e6cb;
+}
+
+.pause-button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+.pause-button::after{
+    content: '';
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    border-style: solid;
+    border-width: 15px 15px 15px 15px;
+ 
+}
+
+.pause-button:focus{
+    box-shadow: 0 0 0 3px #b3e6cb;
+}
+
+.play-button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.left-section{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border-style: solid;
+}
+
+
+.right-section{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    border-style: solid;
+}

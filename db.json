@@ -1,0 +1,56 @@
+[
+    {
+        "songName": "cheliya (Jawan)",
+        "singers":"Arijit Singh, Shilpa Rao",
+        "song": "./public/songs/Cheliya(PaglaSongs).mp3",
+        "image":"./public/images/chaleya.jpg"
+    },
+    {
+        "songName": "Heeriye-Heeriye-Aa",
+        "singers":"Arijit Singh, Jasleen Royal",
+        "song": "./public/songs/Heeriye-Heeriye-Aa(PaglaSongs).mp3",
+        "image":"./public/images/heeriye.jpg"
+    },
+    {
+        "songName": "Hey Gopal Krishna Karu Aarti Teri",
+        "singers":"Devoleena bhattacharya",
+        "song": "./public/songs/Hey-Gopal-Krishna-Karu-Aarti-Teri(PaglaSongs).mp3",
+        "image":"./public/images/hey-gopal.jpg"
+    },
+    {
+        "songName": "Intezaam ho jaye",
+        "singers":"",
+        "song": "./public/songs/Intezaam-Ho-Jaye(PaglaSongs).mp3",
+        "image":"./public/images/karuna karo.jpg"
+    },
+    {
+        "songName": "Karuna Karo kasht haro gyan do bhagwan",
+        "singers":"Dr Prakhar Dagar",
+        "song": "./public/songs/Karuna-Karo-Kasht-Haro-Gyan-Do-Bhagwan(PaglaSongs).mp3",
+        "image":"./public/images/karuna karo.jpg"
+    },
+    {
+        "songName": "Ae dil hai mushkil",
+        "singers":"Arijit Singh",
+        "song": "./public/songs/Mana-Ki-Teri-Maujoodgi-Se(PaglaSongs).mp3",
+        "image":"./public/images/ae-dil.jpg"
+    },
+    {
+        "songName": "Meera ke prabhu giridhar ",
+        "singers":"Sachet Tandon, Parampara Thakur",
+        "song": "./public/songs/Meera-Ke-Prabhu-Giridhar(PaglaSongs).mp3",
+        "image":"./public/images/meera.jpg"
+    },
+    {
+        "songName": "Ramaiya vastavaiya",
+        "singers":"Anirudh Ravichander",
+        "song": "./public/songs/Not-Ramaiya-Vastavaiya(PaglaSongs).mp3",
+        "image":"./public/images/rammyya.jpg"
+    },
+    {
+        "songName": "Tum kya mile",
+        "singers":"Arijit Singh, Shreya Ghoshal",
+        "song": "./public/songs/Tum-Kya-Mile(PaglaSongs).mp3",
+        "image":"./public/images/tum-kya-mile.jpg"
+    }
+]
